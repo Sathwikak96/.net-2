@@ -582,8 +582,6 @@ namespace Exercise<br>
                 Console.WriteLine("Contents of files are not same");<br>
             }<br>
         }<br>
-    
-        
     }<br>
 }<br>
 
