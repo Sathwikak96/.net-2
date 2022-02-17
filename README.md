@@ -353,28 +353,3 @@ namespace Exercises<br>
 }<br>
 
 
-namespace Exercises
-{
-    class FrequencyIS
-    {
-        static void Main(string[] args)
-        {
-            int count = 0;
-            string inputString;
-            Console.WriteLine("\n------------Frequency of word 'is'------------");
-            Console.WriteLine("\n Enter the input string:");
-            inputString = Console.ReadLine();
-            char[] seperator = { ',', ' ', '.', '!', '\n' };
-            string testString = inputString.ToLower();
-            string[] outcomes = testString.Split(seperator);
-            foreach(String S in outcomes)
-            {
-                Console.WriteLine(S);
-                if (S == "is")
-                    count++;
-            }
-            Console.WriteLine("\n Number of 'is' in" + inputString + "is:" + count);
-        }
-    }
-}
-
