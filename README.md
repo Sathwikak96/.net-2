@@ -406,3 +406,55 @@ namespace Exercises<br>
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154417009-ada14e22-9dc3-4e7f-8ddf-10ccec34c3cf.png)
+<br>
+<br>
+<br>
+using System;<br>
+
+namespace Exercises<br>
+{ <br>
+    class SumOfDiagonals<br>
+    {<br>
+        static void Main(string[] args)<br>
+        {<br>
+            int MaxRow, MaxCol, Sum = 0;<br>
+            int[,] Matrix;<br>
+            Console.WriteLine("\n--------------SUM OF DIAGONAL OF A MATRIX--------------\n");<br>
+            Console.WriteLine("\n Enter the number of rows:");<br>
+            MaxRow = Convert.ToInt32(Console.ReadLine());<br><br>
+            Console.WriteLine("\n Enter the number of columns:");<br>
+            MaxCol = Convert.ToInt32(Console.ReadLine());<br>
+            if (MaxRow != MaxCol)<br>
+            {<br>
+                Console.WriteLine("\n the dimension entered are not of square Matrix");<br>
+                Console.WriteLine("\n exiting the Program-----");<br>
+                return;<br>
+            }<br>
+            Matrix = new int[MaxRow, MaxCol];<br>
+            for (int i = 0; i < MaxRow; i++)<br>
+            {<br>
+                for (int j = 0; j < MaxCol; j++)<br>
+                {<br>
+                    Console.Write("\n enter the {0},{1} the element of the matrix:", (i + 1), (j + 1));<br>
+                    Matrix[i, j] = Convert.ToInt32(Console.ReadLine());<br>
+
+                }<br>
+            }<br>
+            Console.WriteLine("\n the entered Matrix is:");<br>
+            for (int i = 0; i < MaxRow; i++)<br>
+            {<br>
+                for (int j = 0; j < MaxCol; j++)<br>
+                {<br>
+                    Console.Write(" " + Matrix[i, j]);<br>
+                    if (i == j)<br>
+                    {<br>
+                        Sum += Matrix[i, j];<br>
+                    }<br>
+                }<br>
+                Console.WriteLine();<br>
+            }<br>
+            Console.WriteLine("\n the sum of diagonal is" + Sum);<br>
+        }<br>
+    
+    }<br>
+}<br>
