@@ -461,3 +461,84 @@ namespace Exercises<br>
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154418078-93b9d426-43fe-423a-a34e-c10c98857069.png)
+<br>
+<br>
+using System;<br>
+using System.IO;<br>
+namespace FileRead<br>
+{<br>
+    class FileRead<br>
+    {<br>
+        public static void Main()<br>
+        {<br>
+            string fileName;<br>
+            while (true)<br>
+            {<br>
+                Console.WriteLine("\n-----------MENU-------------\n");<br>
+                Console.WriteLine("\n 1.Create a File");<br>
+                Console.WriteLine("\n 2.Existence of the File");<br>
+                Console.WriteLine("\n 3. Read the content of file");<br>
+                Console.WriteLine("\n 4. Exit");<br>
+                Console.WriteLine("\n Enter your choice:");<br>
+                int ch = int.Parse(Console.ReadLine());<br>
+                switch (ch)<br>
+                {<br>
+                    case 1:<br>
+                          Console.Write("\n Enter the filename to create:");<br>
+                          fileName = Console.ReadLine();<br>
+                          Console.WriteLine("\n Write the contents to the File:\n");<br>
+                          string r = Console.ReadLine();<br>
+                          using (StreamWriter fileStr = File.CreateText(fileName))<br>
+                          {<br>
+                             fileStr.WriteLine(r);<br>
+                          }<br>
+                          Console.WriteLine("File is Crreated------");<br>
+                          break;<br>
+                   case 2:<br>
+                          Console.Write("\n Enter the filename:");<br>
+                          fileName = Console.ReadLine();<br>
+                          if (File.Exists(fileName))<br>
+                          {<br>
+                            Console.WriteLine("File exists----");<br>
+                          }<br>
+                         else<br>
+                         {<br>
+                          Console.WriteLine("File does not exist in the current directory!");<br>
+                         }<br>
+                         break;<br>
+                   case 3:<br>
+                          Console.WriteLine("Enter the file name to read the contents:\n");<br>
+                          fileName = Console.ReadLine();<br>
+                          if (File.Exists(fileName))<br>
+                          {<br>
+                            using (StreamReader sr = File.OpenText(fileName))<br>
+                            {<br>
+                              string S = " ";<br>
+                              Console.WriteLine("Here is the content of the file:");<br>
+                              while ((S = sr.ReadLine()) != null)<br>
+                              {<br>
+                                 Console.WriteLine(S);<br>
+                              }<br>
+                                  Console.WriteLine(" ");<br>
+                            }<br>
+                          }<br>
+                          else<br>
+                          {<br>
+                              Console.WriteLine("File does not exists");<br>
+                          }<br>
+                           break;<br>
+                  case 4:<br>
+                        Console.WriteLine("\n Exiting-----");<br>
+                        return;<br>
+                  default :<br>
+                        Console.WriteLine("\n Invalid choice");<br>
+                         break;<br>
+
+                }<br>
+            }<br>
+        }<br>
+    }<br>
+
+}<br>
+<br>
+<br>
