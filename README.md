@@ -42,4 +42,29 @@ namespace Exercises<br>
     }<br>
 }<br>
 ![image](https://user-images.githubusercontent.com/97940151/154412318-6b99905d-72dd-4a6d-91db-ba19106e7508.png)
+using System;
 
+namespace Exercises<br>
+{<br>
+    class RegisterNum<br>
+    {<br>
+        int regNo;<br>
+        static int StartNum;<br>
+        static RegisterNum()<br>
+        {<br>
+            StartNum = 20210000;<br>
+        }<br>
+        RegisterNum()<br>
+        {<br>
+            regNo = ++StartNum;<br>
+        }<br>
+        public static void Main(string[] args)<br>
+        {<br>
+            for (int i = 0; i < 100; i++)<br>
+            {<br>
+                RegisterNum Student = new RegisterNum();<br>
+                Console.WriteLine("Student {0}:{1}", i + 1, Student.regNo);<br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
