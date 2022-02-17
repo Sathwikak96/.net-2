@@ -547,4 +547,43 @@ namespace FileRead<br>
 ![image](https://user-images.githubusercontent.com/97940151/154419416-6ebe1682-ae54-4ee6-9b3b-cfe9a0fd1ed7.png)
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154419576-91e88eca-ede2-464f-900f-9d26f5fc9a7b.png)
+<br>
+<br>
+<br>
+using System;<br>
+using System.IO;<br>
+
+namespace Exercise<br>
+{<br>
+    class FileRead12<br>
+    {<br>
+        public static void Main()<br>
+        {<br>
+            string file1;<br>
+            string file2;<br>
+            Console.Write("Enter the First file path:");<br>
+            file1 = Console.ReadLine();<br>
+            Console.Write("Enter the Second file path:");<br>
+            file2 = Console.ReadLine();<br>
+            if(!File.Exists(file1))<br>
+            {<br>
+                Console.WriteLine("First file does not exists!");<br>
+            }<br>
+            else if(!File.Exists(file2))<br>
+            {<br>
+                Console.WriteLine("Second file does not exists!");<br>
+            }<br>
+            else if(File.ReadAllText(file1)==File.ReadAllText(file2))<br>
+            {<br>
+                Console.WriteLine("Both files contains the same content");<br>
+            }<br>
+            else<br>
+            {<br>
+                Console.WriteLine("Contents of files are not same");<br>
+            }<br>
+        }<br>
+    
+        
+    }<br>
+}<br>
 
