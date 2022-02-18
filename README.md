@@ -209,7 +209,6 @@ namespace Exercises<br>
             MarksDetails student1 = new MarksDetails("Abhijith", 22, "Male", 2019001, "MCA", 5, new int[] { 77, 80, 98, 95, 90 });<br>
             student1.Display();<br>
         }<br>
-
     }<br>
 }<br>
 <br>
