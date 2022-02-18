@@ -1,6 +1,5 @@
 0.//C# program to print the message "Hello"?<br>
 <br>
-<br>
 using System;<br>
 namespace Exercises<br>
 {<br>
@@ -19,12 +18,7 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 1.//C# program to print Binary Triangle?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
@@ -61,6 +55,7 @@ namespace Exercises<br>
 <br>
 <br>
 2.//C# program to check whether the entered number is an Amicable number or not?<br>
+<br>
 using System;<br>
 namespace Exercises<br>
 {<br>
@@ -110,7 +105,6 @@ namespace Exercises<br>
 <br>
 <br>
 3.//C# program to illustrate Multilevel Inheritance with Virtual methods?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
@@ -218,11 +212,7 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 4.//C# program to create a Gray code?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
@@ -252,7 +242,6 @@ namespace Exercises<br>
 <br>
 <br>
 5.//C# program to calculate volume of two boxes and find the resultant volume after addition of 2 boxes by implementing operator overloading?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
@@ -302,11 +291,7 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 6.//C# program to implement principles of delegates?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
@@ -351,12 +336,7 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 7.//C# program to generate Register Number automatically for 100 students using static constructor?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
@@ -394,12 +374,7 @@ namespace Exercises<br>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
  8.//C# program to find the frequency of the word "is" in a given sentence?<br>
- <br>
  <br>
  using System;<br>
 namespace Exercises<br>
@@ -434,12 +409,7 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 9.//C# program of benchmark 2D,jagged array allocation?<br>
-<br>
 <br>
 using System;<br>
 using System.Diagnostics;<br>
@@ -496,13 +466,7 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 10.C# program to find the sum of the values on Diagonal of the matrix?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
@@ -558,12 +522,7 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 11.//C# program to create a file,check the existence of file and read the contents of the file?<br>
-<br>
 <br>
 using System;<br>
 using System.IO;<br>
@@ -652,13 +611,7 @@ namespace FileRead<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 12.//C# program to perform file comparision?<br>
-<br>
 <br>
 using System;<br>
 using System.IO;<br>
@@ -703,15 +656,7 @@ namespace Exercise<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 13.//C# program to implement IComparable Interface?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
@@ -776,8 +721,6 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
 14.//C# program to create thread pools?<br>
 <br>
 using System;<br>
@@ -822,13 +765,7 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 15.//C# program to demonstrate error handling using try,catch and finally block?<br>
-<br>
 <br>
 using System;<br>
 namespace Exercises<br>
