@@ -383,31 +383,10 @@ namespace Exercises<br>
         }<br>
     }<br>
 }<br>
-{<br>
-    class RegisterNum<br>
-    {<br>
-        int regNo;<br>
-        static int StartNum;<br>
-        static RegisterNum()<br>
-        {<br>
-            StartNum = 20210000;<br>
-        }<br>
-        RegisterNum()<br>
-        {<br>
-            regNo = ++StartNum;<br>
-        }<br>
-        public static void Main(string[] args)<br>
-        {<br>
-            for (int i = 0; i < 100; i++)<br>
-            {<br>
-                RegisterNum Student = new RegisterNum();<br>
-                Console.WriteLine("Student {0}:{1}", i + 1, Student.regNo);<br>
-            }<br>
-        }<br>
-    }<br>
-}<br>
 <br>
 <br>
+
+![image](https://user-images.githubusercontent.com/97940151/154630844-280c8f10-7a3a-4810-98a2-be53b2e435f0.png)
 ![image](https://user-images.githubusercontent.com/97940151/154415649-6acd5ab3-1a3f-4dbb-aaec-95f264f07211.png)
     <br>
     <br>
