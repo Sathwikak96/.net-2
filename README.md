@@ -770,7 +770,7 @@ namespace Exercises<br>
        }<br>
      }<br>
 <br>
-(https://user-images.githubusercontent.com/97940151/154422326-62a23a05-af53-45f2-a97c-58c66f07e9e6.png)
+![image](https://user-images.githubusercontent.com/97940151/154634064-6eab8953-1f8c-4f0c-8cfa-693a5487a9db.png)
 <br>
 <br>
 <br>
