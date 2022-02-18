@@ -13,7 +13,7 @@ namespace Exercises<br>
     }<br>
 }
 <br>
-![image](https://user-images.githubusercontent.com/97940151/154411539-dfd58d8a-e107-4ac3-866e-26dc91fc0e8e.png)
+![image](https://user-images.githubusercontent.com/97940151/154633120-ff5b6281-6ae4-4f09-82ef-997e7fa207ac.png)
 <br>
 <br>
 <br>
