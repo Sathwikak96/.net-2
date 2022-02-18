@@ -255,7 +255,6 @@ namespace Exercises<br>
     {<br>
         delegate string UppercaseDelegate(string input);<br>
         static string UppercaseFirst(string input)<br>
-
         {<br>
             char[]buffer = input.ToCharArray();<br>
             buffer[0] = char.ToUpper(buffer[0]);<br>
@@ -596,12 +595,10 @@ namespace FileRead<br>
                   default :<br>
                         Console.WriteLine("\n Invalid choice");<br>
                          break;<br>
-
-                }<br>
-            }<br>
+                     }<br>
+                   }<br>
         }<br>
     }<br>
-
 }<br>
 <br>
 <br>
