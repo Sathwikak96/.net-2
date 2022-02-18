@@ -42,6 +42,13 @@ namespace Exercises<br>
     }<br>
 }<br>
 ![image](https://user-images.githubusercontent.com/97940151/154412318-6b99905d-72dd-4a6d-91db-ba19106e7508.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 using System;
 
 namespace Exercises<br>
@@ -69,6 +76,13 @@ namespace Exercises<br>
     }<br>
 }<br>
 ![image](https://user-images.githubusercontent.com/97940151/154412894-5460e684-0e67-4f7b-970a-84a5611771d3.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 using System;<br>
 
@@ -176,7 +190,12 @@ namespace Exercises<br>
 }<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154413794-b7fc60f0-3f12-4ee8-ade4-d730ca08516f.png)
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 using System;<br>
@@ -225,6 +244,12 @@ namespace Exercises<br>
 ![image](https://user-images.githubusercontent.com/97940151/154414276-fe74b294-cf98-4534-8ce3-3890673eaa70.png)
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 using System;<br>
 
 namespace Exercises<br>
@@ -265,6 +290,13 @@ namespace Exercises<br>
 }<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154414812-25dc4920-2b96-44b7-8c0d-bb2a619bfebb.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
         
@@ -325,6 +357,13 @@ namespace Exercises<br>
 ![image](https://user-images.githubusercontent.com/97940151/154415649-6acd5ab3-1a3f-4dbb-aaec-95f264f07211.png)
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
  using System;<br>
 
 namespace Exercises<br>
@@ -354,6 +393,13 @@ namespace Exercises<br>
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154416363-07aa2577-2001-435f-99db-092d63892304.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 using System;<br>
@@ -409,6 +455,13 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 using System;<br>
 
 namespace Exercises<br>
@@ -461,6 +514,13 @@ namespace Exercises<br>
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154418078-93b9d426-43fe-423a-a34e-c10c98857069.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 using System;<br>
@@ -550,6 +610,13 @@ namespace FileRead<br>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 using System;<br>
 using System.IO;<br>
 
@@ -589,6 +656,15 @@ namespace Exercise<br>
 ![image](https://user-images.githubusercontent.com/97940151/154420600-dd213929-5bfe-44a4-83ba-f69f7516a2ee.png)
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154420967-e199661b-67bc-4809-bcba-59f7448e80de.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -651,7 +727,11 @@ namespace Exercises<br>
        }<br>
      }<br>
 <br>
-<br>
-<br>
 (https://user-images.githubusercontent.com/97940151/154422326-62a23a05-af53-45f2-a97c-58c66f07e9e6.png)
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
