@@ -33,8 +33,8 @@ namespace Exercises<br>
     {<br>
         static void Main(string[] args)<br>
         {<br>
-            int number,digit = 1;<br>
-            Console.Write("\n enter the number of lines:");<br>
+            int number, digit = 1;<br>
+            Console.Write("\nEnter the number of lines: ");<br>
             number = Convert.ToInt32(Console.ReadLine());<br>
             for (int i = 1; i <= number; i++)<br>
             {<br>
@@ -52,7 +52,6 @@ namespace Exercises<br>
         }<br>
     }<br>
 }<br>
-![image](https://user-images.githubusercontent.com/97940151/154412318-6b99905d-72dd-4a6d-91db-ba19106e7508.png)
 <br>
 <br>
 <br>
