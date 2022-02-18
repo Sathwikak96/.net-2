@@ -1,5 +1,7 @@
+0.//C# program to print the message "Hello"?<br>
+<br>
+<br>
 using System;<br>
-
 namespace Exercises<br>
 {<br>
     class Hello<br>
@@ -10,12 +12,21 @@ namespace Exercises<br>
         }<br>
     }<br>
 }
-<br><br>
+<br>
 ![image](https://user-images.githubusercontent.com/97940151/154411539-dfd58d8a-e107-4ac3-866e-26dc91fc0e8e.png)
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+1.//C# program to print Binary Triangle?<br>
+<br>
 <br>
 using System;<br>
-
 namespace Exercises<br>
 {<br>
     class BinaryTriangle<br>
@@ -49,43 +60,19 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-using System;
-
-namespace Exercises<br>
-{<br>
-    class RegisterNum<br>
-    {<br>
-        int regNo;<br>
-        static int StartNum;<br>
-        static RegisterNum()<br>
-        {<br>
-            StartNum = 20210000;<br>
-        }<br>
-        RegisterNum()<br>
-        {<br>
-            regNo = ++StartNum;<br>
-        }<br>
-        public static void Main(string[] args)<br>
-        {<br>
-            for (int i = 0; i < 100; i++)<br>
-            {<br>
-                RegisterNum Student = new RegisterNum();<br>
-                Console.WriteLine("Student {0}:{1}", i + 1, Student.regNo);<br>
-            }<br>
-        }<br>
-    }<br>
-}<br>
-![image](https://user-images.githubusercontent.com/97940151/154412894-5460e684-0e67-4f7b-970a-84a5611771d3.png)
+2.//C# program to check whether the entered number is an Amicable number or not?<br>
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
+<br>
+<br>
+3.//C# program to illustrate Multilevel Inheritance with Virtual methods?<br>
 <br>
 <br>
 using System;<br>
-
 namespace Exercises<br>
 {<br>
     class PersonalDetails<br>
@@ -118,8 +105,7 @@ namespace Exercises<br>
             this.course = course;<br>
             this.semester = semester;<br>
         }<br>
-
-        public override void Display()<br>
+    public override void Display()<br>
         {<br>
             base.Display();<br>
             Console.WriteLine("/n-------------CourseDetails-----------\n");<br>
@@ -151,9 +137,7 @@ namespace Exercises<br>
         }<br>
         private void Calculate()<br>
         {<br>
-
-
-            average = total / 5;<br>
+       average = total / 5;<br>
             if (flagFail == 1 || average < 40)<br>
                 grade = "Fail";<br>
             else if (average >= 70)<br>
@@ -198,8 +182,19 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
+4.//C# program to create a Gray code?<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+5.//C# program to calculate volume of two boxes and find the resultant volume after addition of 2 boxes by implementing operator overloading?<br>
+<br>
+<br>
 using System;<br>
-
 namespace Exercises<br>
 {<br>
     class Box<br>
@@ -250,8 +245,10 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
+6.//C# program to implement principles of delegates?<br>
+<br>
+<br>
 using System;<br>
-
 namespace Exercises<br>
 {<br>
     class Delegates<br>
@@ -299,11 +296,10 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-        
-        using System;<br>
-
-namespace Exercise;<br>
-
+7.//C# program to generate Register Number automatically for 100 students using static constructor?<br>
+<br>
+<br>
+using System;<br>
 namespace Exercises<br>
 {<br>
     class RegisterNum<br>
@@ -328,7 +324,6 @@ namespace Exercises<br>
         }<br>
     }<br>
 }<br>
-
 {<br>
     class RegisterNum<br>
     {<br>
@@ -364,8 +359,10 @@ namespace Exercises<br>
     <br>
     <br>
     <br>
+ 8.//C# program to find the frequency of the word "is" in a given sentence?<br>
+ <br>
+ <br>
  using System;<br>
-
 namespace Exercises<br>
 {<br>
     class FrequencyIS<br>
@@ -402,7 +399,11 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
+9.//C# program of benchmark 2D,jagged array allocation?<br>
+<br>
+<br>
 using System;<br>
+using System.Diagnostics;<br>
 namespace Exercises<br>
 {<br>
     class BenchmarkAllocation<br>
@@ -446,8 +447,7 @@ namespace Exercises<br>
             Console.WriteLine(StopwatchJagged.Elapsed.TotalMilliseconds + "milliseconds");<br>
 
         }<br>
-   
-    }<br>
+   }<br>
 }<br>
 <br>
 <br>
@@ -462,8 +462,10 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
+10.C# program to find the sum of the values on Diagonal of the matrix?<br>
+<br>
+<br>
 using System;<br>
-
 namespace Exercises<br>
 { <br>
     class SumOfDiagonals<br>
@@ -490,8 +492,7 @@ namespace Exercises<br>
                 {<br>
                     Console.Write("\n enter the {0},{1} the element of the matrix:", (i + 1), (j + 1));<br>
                     Matrix[i, j] = Convert.ToInt32(Console.ReadLine());<br>
-
-                }<br>
+              }<br>
             }<br>
             Console.WriteLine("\n the entered Matrix is:");<br>
             for (int i = 0; i < MaxRow; i++)<br>
@@ -508,7 +509,6 @@ namespace Exercises<br>
             }<br>
             Console.WriteLine("\n the sum of diagonal is" + Sum);<br>
         }<br>
-    
     }<br>
 }<br>
 <br>
@@ -521,6 +521,9 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
+<br>
+<br>
+11.//C# program to create a file,check the existence of file and read the contents of the file?<br>
 <br>
 <br>
 using System;<br>
@@ -617,9 +620,11 @@ namespace FileRead<br>
 <br>
 <br>
 <br>
+12.//C# program to perform file comparision?<br>
+<br>
+<br>
 using System;<br>
 using System.IO;<br>
-
 namespace Exercise<br>
 {<br>
     class FileRead12<br>
@@ -668,8 +673,10 @@ namespace Exercise<br>
 <br>
 <br>
 <br>
+13.//C# program to implement IComparable Interface?<br>
+<br>
+<br>
 using System;<br>
-
 namespace Exercises<br>
 {<br>
     class Fraction : IComparable<br>
@@ -709,8 +716,7 @@ namespace Exercises<br>
         {<br>
             Fraction[] a =<br>
             {<br>
-
-                      new Fraction(5,2),<br>
+                     new Fraction(5,2),<br>
                       new Fraction(29, 6),<br>
                        new Fraction(4, 5),<br>
                       new Fraction(10, 8),<br>
