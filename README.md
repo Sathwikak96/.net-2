@@ -61,47 +61,46 @@ namespace Exercises<br>
 <br>
 <br>
 2.//C# program to check whether the entered number is an Amicable number or not?<br>
-using System;
-namespace Exercises
-{
-    class AmicableNumber
-    {
-        static void Main(string[] args)
-        {
-            int num1, num2, sum1 = 0, sum2 = 0;
-            Console.WriteLine("\n--------AMICABLE NUMBERS-----------\n");
-            Console.Write("\nEnter the first number: ");
-            num1 = Convert.ToInt32(Console.ReadLine());
-            Console.Write("\nEnter the second number: ");
-            num2 = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i < num1; i++)
-            {
-                if (num1 % i == 0)
-                {
-                    sum1 += i;
-                }
-            }
-            for (int i = 1; i < num2; i++)
-            {
-                if (num2 % i == 0)
-                {
-                    sum2 += i;
-                }
-            }
-            if (sum1 == num2 && sum2 == num1)
-            {
-                Console.WriteLine("\nThe numbers {0} and {1} are amiciable.", num1, num2);
-            }
-            else
-            {
-                Console.WriteLine("\nThe numbers {0} and {1} are not amiciable.", num1, num2);
-            }
-        }
-    }
-}
+using System;<br>
+namespace Exercises<br>
+{<br>
+    class AmicableNumber<br>
+    {<br>
+        static void Main(string[] args)<br>
+        {<br>
+            int num1, num2, sum1 = 0, sum2 = 0;<br>
+            Console.WriteLine("\n--------AMICABLE NUMBERS-----------\n");<br>
+            Console.Write("\nEnter the first number: ");<br>
+            num1 = Convert.ToInt32(Console.ReadLine());<br>
+            Console.Write("\nEnter the second number: ");<br>
+            num2 = Convert.ToInt32(Console.ReadLine());<br>
+            for (int i = 1; i < num1; i++)<br>
+            {<br>
+                if (num1 % i == 0)<br>
+                {<br>
+                    sum1 += i;<br>
+                }<br>
+            }<br>
+            for (int i = 1; i < num2; i++)<br>
+            {<br>
+                if (num2 % i == 0)<br>
+                {<br>
+                    sum2 += i;<br>
+                }<br>
+            }<br>
+            if (sum1 == num2 && sum2 == num1)<br>
+            {<br>
+                Console.WriteLine("\nThe numbers {0} and {1} are amiciable.", num1, num2);<br>
+            }<br>
+            else<br>
+            {<br>
+                Console.WriteLine("\nThe numbers {0} and {1} are not amiciable.", num1, num2);<br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
 <br>
 <br>
-
 <br>
 <br>
 <br>
