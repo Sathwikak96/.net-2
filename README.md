@@ -7,7 +7,7 @@ namespace Exercises<br>
     {<br>
         static void Main(string[] args)<br>
         {<br>
-            Console.WriteLine("Hello World!");<br><br>
+            Console.WriteLine("Hello World!");<br>
         }<br>
     }<br>
 }
