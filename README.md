@@ -1043,5 +1043,4 @@ namespace Exercises<br>
     }<br>
 }<br>
 <br>
-<br>
 ![image](https://user-images.githubusercontent.com/97940151/155663456-7120c0df-fcdd-4f98-af47-16117ff5fe98.png)
