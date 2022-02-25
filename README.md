@@ -952,4 +952,32 @@ namespace Exercises<br>
 <br>
 <br>
 <br>
-
+20. Write a c# program to check the armstrong number?
+ <br>
+ <br>
+ using System; <br>
+namespace Exercises <br>
+{ <br>
+    public class ArmstrongExample <br>
+    { <br>
+        public static void Main(string[] args) <br>
+        { <br>
+            int n, r, sum = 0, temp; <br>
+            Console.Write("Enter the Number= "); <br>
+            n = int.Parse(Console.ReadLine()); <br>
+            temp = n; <br>
+            while (n > 0) <br>
+            { <br>
+                r = n % 10; <br>
+                sum = sum + (r * r * r); <br>
+                n = n / 10; <br>
+            } <br>
+            if (temp == sum) <br>
+                Console.Write("Armstrong Number."); <br>
+            else <br>
+                Console.Write("Not Armstrong Number."); <br>
+        } <br>
+    } <br>
+} <br>
+ <br>
+ <br>
