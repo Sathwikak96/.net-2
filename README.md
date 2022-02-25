@@ -882,4 +882,37 @@ namespace Exercises<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/155660141-8499b2e1-b727-4002-8dec-9012c709a14b.png)
 ![image](https://user-images.githubusercontent.com/97940151/155660384-58a790cf-3895-48a3-99ba-43d6df7a122f.png)
-
+<br>
+<br>
+<br>
+<br>
+<br>
+18. Write a c# program to check palindrome number?
+<br>
+<br>
+using System;<br>
+namespace exercises<br>
+{<br>
+    public class PalindromeExample<br>
+    {<br>
+        public static void Main(string[] args)<br>
+        {<br>
+            int n, r, sum = 0, temp;<br>
+            Console.Write("Enter the Number: ");<br>
+            n = int.Parse(Console.ReadLine());<br>
+            temp = n;<br>
+            while (n > 0)<br>
+            {<br>
+                r = n % 10;<br>
+                sum = (sum * 10) + r;<br>
+                n = n / 10;<br>
+            }<br>
+            if (temp == sum)<br>
+                Console.Write("Number is Palindrome.");<br>
+            else<br>
+                Console.Write("Number is not Palindrome");<br>
+        }<br>
+    }<br>
+}<br>
+<br>
+<br>
