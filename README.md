@@ -814,3 +814,29 @@ public class Age<br>
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/154632907-85e91150-0153-42ea-acda-9b00af8352fc.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+using System;<br>
+namespace Exercises<br>
+{<br>
+    public class FibonacciExample<br>
+    {<br>
+        public static void Main(string[] args)<br>
+        {<br>
+            int n1 = 0, n2 = 1, n3, i, number;<br>
+            Console.Write("Enter the number of elements: ");<br>
+            number = int.Parse(Console.ReadLine());<br>
+            Console.Write(n1 + " " + n2 + " "); <br>
+            for (i = 2; i < number; ++i) <br>   
+            {<br>
+                n3 = n1 + n2;<br>
+                Console.Write(n3 + " ");<br>
+                n1 = n2;<br>
+                n2 = n3;<br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
