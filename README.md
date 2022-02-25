@@ -983,3 +983,33 @@ namespace Exercises <br>
  <br>
 ![image](https://user-images.githubusercontent.com/97940151/155662106-513a27f9-c972-4959-8e95-f6f6f1c86506.png)
 ![image](https://user-images.githubusercontent.com/97940151/155662347-cacdb8e1-cdc8-48fa-8221-a2ed72eb6670.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+21. Write a c# program to print sum of digits?
+<br>
+<br>
+using System;<br>
+namespace Exercises<br>
+{<br>
+    public class SumExample<br>
+    {<br>
+        public static void Main(string[] args)<br>
+        {<br>
+            int n, sum = 0, m;<br>
+            Console.Write("Enter a number: ");<br>
+            n = int.Parse(Console.ReadLine());<br>
+            while (n > 0)<br>
+            {<br>
+                m = n % 10;<br>
+                sum = sum + m;<br>
+                n = n / 10;<br>
+            }<br>
+            Console.Write("Sum is= " + sum);<br>
+        }<br>
+    }<br>
+}<br>
+<br>
+<br>
