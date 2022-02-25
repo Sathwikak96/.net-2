@@ -846,4 +846,38 @@ namespace Exercises<br>
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/155658823-46e8d1f5-e1b9-4768-965a-1c0f1a503545.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+17. Write a C# program  to check the prime numbers?
+ <br>
+ <br> 
+ using System;<br>
+namespace Exercises<br>
+{<br>
+    public class PrimeNumberExample<br>
+    {<br>
+        public static void Main(string[] args)<br>
+        {<br>
+            int n, i, m = 0, flag = 0;<br>
+            Console.Write("Enter the Number to check Prime: ");<br>
+            n = int.Parse(Console.ReadLine());<br>
+            m = n / 2;<br>
+            for (i = 2; i <= m; i++)<br>
+            {<br>
+                if (n % i == 0)<br>
+                {<br>
+                    Console.Write("Number is not Prime.");<br>
+                    flag = 1;<br>
+                    break;<br>
+                }<br>
+            }<br>
+            if (flag == 0)<br>
+                Console.Write("Number is Prime.");<br>
+        }<br>
+    }<br>
+}<br>
+<br>
 
