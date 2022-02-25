@@ -1014,3 +1014,33 @@ namespace Exercises<br>
 <br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/155662923-69d939b6-1997-48aa-80a6-78268f15315b.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+22. Write a c# program to reverse a given number?
+<br>
+<br>
+using System;<br>
+namespace Exercises<br>
+{<br>
+    public class ReverseExample<br>
+    {<br>
+        public static void Main(string[] args)<br>
+        {<br>
+            int n, reverse = 0, rem;<br>
+            Console.Write("Enter a number: ");<br>
+            n = int.Parse(Console.ReadLine());<br>
+            while (n != 0)<br>
+            {<br>
+                rem = n % 10;<br>
+                reverse = reverse * 10 + rem;<br>
+                n /= 10;<br>
+            }<br>
+            Console.Write("Reversed Number: " + reverse);<br>
+        }<br>
+    }<br>
+}<br>
+<br>
+<br>
