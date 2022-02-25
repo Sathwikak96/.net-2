@@ -918,3 +918,31 @@ namespace exercises<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/155660845-39e4af33-750a-4fa1-a63a-d6d614e1a13f.png)
 ![image](https://user-images.githubusercontent.com/97940151/155660928-8504268c-a9e8-4995-84ce-fa89d7851bf6.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+19. Write a c# program to print factorial of a number?
+ <br>
+ <br>
+ using System;<br>
+namespace Exercises<br>
+{<br>
+    public class FactorialExample<br>
+    {<br>
+        public static void Main(string[] args)<br>
+        {<br>
+            int i, fact = 1, number;<br>
+            Console.Write("Enter any Number: ");<br>
+            number = int.Parse(Console.ReadLine());<br>
+            for (i = 1; i <= number; i++)<br>
+            {<br>
+                fact = fact * i;<br>
+            }<br>
+            Console.Write("Factorial of " + number + " is: " + fact);<br>
+        }<br>
+    }<br>
+}<br>
+<br>
+<br>
