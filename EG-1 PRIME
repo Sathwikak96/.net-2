@@ -1,27 +1,30 @@
-﻿using System;
-namespace Demo
-{
-    class MyApplication
-    {
-        public static void Main()
-        {
-            int n = 7, a = 0;
-            for (int i = 1; i <= n; i++)
-            {
-                if (n % i == 0)
-                {
-                    a++;
-                }
-            }
-            if (a == 2)
-            {
-                Console.WriteLine("{0} is a Prime Number", n);
-            }
-            else
-            {
-                Console.WriteLine("Not a Prime Number");
-            }
-            Console.ReadLine();
-        }
-    }
-}
+﻿using System;<br>
+namespace Demo<br>
+{<br>
+    class MyApplication<br>
+    {<br>
+        public static void Main()<br>
+        {<br>
+            int n = 7, a = 0;<br>
+            for (int i = 1; i <= n; i++)<br>
+            {<br>
+                if (n % i == 0)<br>
+                {<br>
+                    a++;<br>
+                }<br>
+            }<br>
+            if (a == 2)<br>
+            {<br>
+                Console.WriteLine("{0} is a Prime Number", n);<br>
+            }<br>
+            else<br>
+            {<br>
+                Console.WriteLine("Not a Prime Number");<br>
+            }<br>
+            Console.ReadLine();<br>
+        }<br>
+    }<br>
+}<br>
+<br>
+<br>
+<br>
